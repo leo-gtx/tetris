@@ -1,4 +1,4 @@
-# Tetromino
+# Tetris
 
 ![gameplay](media/tetromino-sample.gif)
 
@@ -6,7 +6,7 @@ A tetris-style game created with [React](https://reactjs.org/), [Redux](https://
 
 ## What is it?
 
-For those of you not familiar with Tetris, it's a game where you drop tetromino shapes to create solid rows to score points. Blocks
+For those of you not familiar with Tetris, it's a game where you drop tetris shapes to create solid rows to score points. Blocks
 fall faster as you increase the level. If there is no more room to drop blocks, then the game is over.
 
 ## Why build it?
@@ -18,16 +18,17 @@ All graphics are rendered as React functional components, and the game logic is 
 
 ## Where is it?
 
-Online demo: [https://tetromino.ndlpixel.com/tetromino](https://tetromino.ndlpixel.com/tetromino/)
+Online demo: [https://tetris.ndlpixel.com/tetris](https://tetris.ndlpixel.com/tetris/)
 
 ## How to get it?
 
 Clone and run it locally.
 
 ```bash
-git clone https://github.com/leo-gtx/tetromino
-cd tetromino
+git clone https://github.com/leo-gtx/tetris
+cd tetris
 yarn install
 yarn start
 ```
-### Forked from [https://github.com/reactgular/tetromino](https://github.com/reactgular/tetromino)
+## Credits
+Forked from [https://github.com/reactgular/tetromino](https://github.com/reactgular/tetromino)

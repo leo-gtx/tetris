@@ -29,7 +29,7 @@ const gameCredits: Array<GameCredit> = [
     },
     {
         title: 'Source code',
-        desc: 'Tetromino',
+        desc: 'Tetris',
         url: environment.github
     }
 ];

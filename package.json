@@ -1,7 +1,7 @@
 {
-    "name": "tetrix",
-    "version": "1.0.0",
-    "homepage": "https://reactgular.github.io/tetromino/",
+    "name": "tetris",
+    "version": "1.1.0",
+    "homepage": "https://tetris.ndlpixel.com/tetris/",
     "private": true,
     "scripts": {
         "start": "craco start",
