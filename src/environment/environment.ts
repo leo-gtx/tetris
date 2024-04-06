@@ -10,6 +10,8 @@ export interface Environment {
     storageKey: string;
 
     version: string;
+
+    apiKey: string;
 }
 
 export const environment: Environment = {
@@ -18,5 +20,6 @@ export const environment: Environment = {
     github: process.env.REACT_APP_GITHUB as string,
     storageKey: process.env.REACT_APP_STORAGE_KEY as string,
     version: process.env.REACT_APP_VERSION as string,
-    base: process.env.REACT_APP_BASE as string
+    base: process.env.REACT_APP_BASE as string,
+    apiKey: process.env.REACT_APP_API_KEY as string
 };

@@ -4,6 +4,7 @@ import {AppDialogType} from '../../../store/app/app-model';
 import {AppSelectors} from '../../../store/app/app-selectors';
 import {AppDialog, AppDialogControl} from '../../molecules/app/AppDialog';
 import {GameCredit, GameCredits} from '../../molecules/game/GameCredits';
+import {AppSupport} from '../../atoms/app/AppSupport';
 
 const gameCredits: Array<GameCredit> = [
     {
@@ -17,23 +18,18 @@ const gameCredits: Array<GameCredit> = [
         url: 'https://www.linkedin.com/in/nick-foscarini/'
     },
     {
-        title: 'Built with',
-        desc: 'ReactJS',
-        url: 'https://reactjs.org/'
+        title: 'Mobile Portage by',
+        desc: 'Leonel Nguefack',
+        url: 'https://ndlpixel.com/'
     },
     {
-        title: 'States managed by',
-        desc: 'Redux Toolkit',
-        url: 'https://redux-toolkit.js.org/'
-    },
-    {
-        title: 'Styled with',
-        desc: 'tailwindcss',
-        url: 'https://tailwindcss.com/'
+        title: 'Maintained by',
+        desc: 'Leonel Nguefack',
+        url: 'https://ndlpixel.com/'
     },
     {
         title: 'Source code',
-        desc: 'GitHub',
+        desc: 'Tetromino',
         url: environment.github
     }
 ];
@@ -42,12 +38,9 @@ export const CreditsDialog: FC<Partial<AppDialogControl>> = ({
     selectOpen = AppSelectors.isOpen(AppDialogType.CREDITS)
 }) => {
     return (
-        <AppDialog
-            className="max-w-[12rem]"
-            title="Credits"
-            selectOpen={selectOpen}
-        >
+        <AppDialog className="max-w-md" title="Credits" selectOpen={selectOpen}>
             <GameCredits credits={gameCredits} />
+            <AppSupport />
         </AppDialog>
     );
 };

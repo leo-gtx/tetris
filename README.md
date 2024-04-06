@@ -18,15 +18,16 @@ All graphics are rendered as React functional components, and the game logic is 
 
 ## Where is it?
 
-Online demo: [https://reactgular.github.io/tetromino/](https://reactgular.github.io/tetromino/)
+Online demo: [https://tetromino.ndlpixel.com/tetromino](https://tetromino.ndlpixel.com/tetromino/)
 
 ## How to get it?
 
 Clone and run it locally.
 
 ```bash
-git clone https://github.com/reactgular/tetromino
+git clone https://github.com/leo-gtx/tetromino
 cd tetromino
 yarn install
 yarn start
 ```
+### Forked from [https://github.com/reactgular/tetromino](https://github.com/reactgular/tetromino)

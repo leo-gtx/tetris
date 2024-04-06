@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import {FC, useState} from 'react';
-import {CgArrowsExpandLeft} from 'react-icons/cg';
+import {CgSwap} from 'react-icons/cg';
 import {useUiTheme} from '../../particles/contexts/UiThemeContext';
 import {KeyPressed} from '../../particles/nulls/KeyPressed';
 import {ClassNameProps} from '../../particles/particles.types';
@@ -37,7 +37,7 @@ export const GameHold: FC<GameHoldProps & ClassNameProps> = ({
                 shape={UiButtonShape.ROUND}
                 onClick={() => onHold()}
             >
-                <CgArrowsExpandLeft />
+                <CgSwap />
             </UiButton>
             <KeyPressed
                 keyCode={keyCode}

@@ -5,6 +5,10 @@
 
 @layer base {
     @font-face {
+        font-family: 'All the Way to the Sun';
+        src: url('fonts/AllTheWayToTheSun-o2O0.ttf');
+    }
+    @font-face {
         font-family: 'digits';
         src: url('fonts/Segment7-4Gml.otf') format('opentype');
     }
@@ -13,6 +17,7 @@
     body {
         @apply dark:bg-gray-800 dark:text-gray-200 text-gray-800;
         @apply block relative h-full m-0 p-0 overflow-hidden;
+        font-family: 'All the Way to the Sun';
 
         -ms-touch-action: none;
         -webkit-touch-callout: none;

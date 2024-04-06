@@ -18,17 +18,7 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                mono: [
-                    '"VT323"',
-                    'ui-monospace',
-                    'SFMono-Regular',
-                    'Menlo',
-                    'Monaco',
-                    'Consolas',
-                    '"Liberation Mono"',
-                    '"Courier New"',
-                    'monospace'
-                ],
+                mono: ['All the Way to the Sun'],
                 logo: ['"Black Ops One"', 'cursive'],
                 digits: ['digits']
             },

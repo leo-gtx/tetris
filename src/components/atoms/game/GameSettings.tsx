@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import {FC} from 'react';
-import {FaBars} from 'react-icons/fa';
+import {FaPause} from 'react-icons/fa';
 import {useSelector} from 'react-redux';
 import {useAppDispatch} from '../../../store/app-store';
 import {GameActions} from '../../../store/game/game-actions';
@@ -29,7 +29,7 @@ export const GameSettings: FC<ClassNameProps> = ({className}) => {
                 shape={UiButtonShape.ROUND}
                 onClick={() => dispatch(GameActions.pause())}
             >
-                <FaBars />
+                <FaPause />
             </UiButton>
             {!paused && (
                 <KeyPressed

@@ -19,9 +19,9 @@ export const GameCredits: FC<GameCreditsProps & ClassNameProps> = ({
     className
 }) => {
     return (
-        <div className={classNames(className, 'flex flex-col text-xs -mb-3')}>
+        <div className={classNames(className, 'flex flex-col mx-auto text-xs')}>
             {credits.map(({title, desc, url}, indx) => (
-                <div className="flex flex-col mb-3" key={indx}>
+                <div className="flex flex-col mb-3 text-center" key={indx}>
                     <div>{title}:</div>
                     <a href={url} className="text-primary hover:underline">
                         {desc}

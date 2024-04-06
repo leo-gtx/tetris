@@ -8,6 +8,8 @@ import {GameActions} from '../../store/game/game-actions';
 import {AppLogo} from '../atoms/app/AppLogo';
 import {AppMenu, AppMenuItem} from '../atoms/app/AppMenu';
 import {AppDarkMode} from '../molecules/app/AppDarkMode';
+import {AppCopyright} from '../atoms/app/AppCopyright';
+import {AppSupport} from '../atoms/app/AppSupport';
 
 export interface WelcomeProps {
     selectStart?: () => number;
@@ -43,6 +45,8 @@ export const Welcome: FC<WelcomeProps> = ({
             />
             <AppMenu className="w-44 ml-auto mr-auto" items={menu} />
             <AppDarkMode className="ml-auto mr-auto mt-5 mb-auto" />
+            <AppSupport className="ml-auto mr-auto mt-5 mb-auto" />
+            <AppCopyright className="ml-auto mr-auto" />
         </div>
     );
 };
